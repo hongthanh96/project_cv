@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.header_top {
+    width: 100%;
+    display: flex;
+    background-color: rgb(54, 173, 143);
+    padding: 20px;
+}
+
+.header_top h1,
+.header_top p {
+    color: white;
+}
+
+.header_top h3 {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.header_top p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.header_row4 {
+    width: 20%;
+}
+
+.header_row8 {
+    width: 80%;
+}
+
+.avatar {
+    display: block;
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header_bottom {
+    display: flex;
+    width: 100%;
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    background-color: rgb(36, 148, 124);
+    height: auto;
+    padding: 20px;
+}
+
+.header_bottom span {
+    font-size: 18px;
+    padding-left: 5%;
+}
+
+.header_bottom i {
+    font-size: 30px;
+}
+
+.info_left {
+    width: 60%;
+    color: white;
+}
+
+.info_right {
+    color: white;
+    width: 40%;
+}
+
+.info_left1,
+.info_right1,
+.info_left2,
+.info_right2 {
+    display: flex;
+}
+
+.icon {
+    width: 5%;
+}
+
+.info_left2,
+.info_right2 {
+    padding-top: 10px;
+}
+
+.container {
+    padding: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.container_left {
+    width: 50%;
+}
+
+.container_left a {
+    font-size: 15px;
+    color: rgb(43, 182, 147);
+}
+
+.container_left h1,
+.container_right h1 {
+    color: rgb(45, 92, 88);
+    display: inline-block;
+    border-bottom: 3px solid black;
+    padding-top: 10px;
+}
+
+.container_right {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.skill label {
+    padding: 5px 10px;
+    background-color: rgb(53, 187, 169);
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.skill_top {
+    padding-top: 20px;
+}
+
+.skill_bottom {
+    padding-top: 20px;
+}
