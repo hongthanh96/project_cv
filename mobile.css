@@ -79,3 +79,12 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .header_bottom span {
+        padding-left: 30px;
+    }
+    .skill label {
+        font-size: 12px;
+    }
+}
