@@ -85,6 +85,12 @@
         padding-left: 30px;
     }
     .skill label {
-        font-size: 12px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .skill label {
+        font-size: 11px;
     }
 }
