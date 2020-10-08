@@ -6,13 +6,23 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 p {
     line-height: 25px;
     padding: 10px 0;
+    text-align: justify;
 }
 
 li {
     padding: 5px 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
 }
 
 .header_top {
@@ -121,6 +131,7 @@ li {
     display: inline-block;
     border-bottom: 3px solid black;
     padding-top: 10px;
+    margin-bottom: 2%;
 }
 
 .container_right {
@@ -142,4 +153,8 @@ li {
 
 .skill_bottom {
     padding-top: 20px;
+}
+
+.myself h3 {
+    text-align: justify;
 }

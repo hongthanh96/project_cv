@@ -49,6 +49,7 @@
     }
     .header_row8 {
         width: 100%;
+        padding-left: 0;
     }
     .avatar {
         margin: auto;
@@ -92,5 +93,20 @@
 @media screen and (max-width: 375px) {
     .skill label {
         font-size: 11px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .header_bottom {
+        padding-left: 20px;
     }
 }
